@@ -1,0 +1,202 @@
+.login-layout {
+    display: flex;
+
+}
+
+.login-layout .left-display {
+    padding: 2% 5%;
+    flex: 0 0 45%;
+    max-width: 580px;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.login-layout .left-display .display-img img {
+    max-height: 45vh;
+}
+
+.login-layout .left-display .logo {
+    max-width: 200px;
+}
+
+.login-layout .right-content {
+    flex-grow: 1;
+    min-height: 100vh;
+    padding: 5% 8%;
+}
+
+.main-layout header {
+    border-bottom: 1px solid #EBECEE;
+    left: 0;
+    z-index: 999;
+    padding: 10px 0;
+}
+
+.main-layout header .logo {
+    flex: 0 0 155px;
+    width: 155px;
+}
+
+.main-layout header .custom-search {
+    margin-left: 175px;
+    flex: 0 0 262px;
+}
+
+
+
+
+.main-layout header .header-actions .header-btns .action-btn {
+    border: 1px solid #EBECEE;
+    height: 36px;
+    width: 36px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    position: relative;
+    transition: all 200ms ease-in;
+}
+
+.main-layout header .header-actions .header-btns .action-btn:hover {
+    background-color: #EBECEE;
+}
+
+.main-layout header .header-actions .header-btns .action-btn .indicator {
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    position: absolute;
+    background-color: #DD1616;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50%;
+    right: -2px;
+    top: 0px;
+}
+
+.main-layout header .header-user .dropdown-toggle {
+    align-items: flex-start;
+    border: 0;
+    background-color: transparent;
+}
+
+.main-layout header .header-user .dropdown-toggle:after {
+    content: none;
+}
+
+.main-layout header .header-user .dropdown-toggle .user-info {
+    text-align: left;
+}
+
+.main-layout header .header-user .dropdown-toggle .user-info .h5 {
+    margin-bottom: 0;
+}
+
+.main-layout header .header-user .dropdown-toggle .user-info .user-designation {
+    font-size: 12px;
+}
+
+.main-layout header .header-user .dropdown-toggle .user-img {
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 12px;
+}
+
+.main-layout header .header-user .dropdown-toggle .fa {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.main-layout header .header-user .dropdown-item{
+    font-size: 12px;
+    color: #4F5359;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.main-layout header .header-user .dropdown-item:hover{
+    background-color: #0055FF;
+    color: #ffffff;
+}
+
+.main-layout .sidebar {
+    position: fixed;
+    left: 0;
+    background-color: #ffffff;
+    border-right: 1px solid #EBECEE;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 100px 16px 0;
+    color: #818B9A;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 281px;
+}
+
+.main-layout .sidebar-menu li a {
+    color: #818B9A;
+    padding: 10px 8px;
+    font-weight: 500;
+    margin-bottom: 1px;
+    transition: all 200ms ease-in;
+}
+
+.main-layout .sidebar-menu li a .icon {
+    margin-right: 8px;
+    flex: 0 0 24px;
+}
+
+
+
+.main-layout .sidebar-menu li a:hover,
+.main-layout .sidebar-menu li a.active {
+    background-color: #0055FF;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.main-layout .sidebar-menu li a:hover .icon,
+.main-layout .sidebar-menu li a.active .icon {
+    display: none;
+}
+
+.main-layout .sidebar-menu li .icon.hover,
+.main-layout .sidebar-menu li .icon.hover {
+    display: none;
+}
+
+.main-layout .sidebar-menu li a:hover .icon.hover,
+.main-layout .sidebar-menu li a.active .icon.hover {
+    display: inline-block;
+}
+
+.main-content {
+    margin-left: 281px;
+    padding-top: 100px;
+    padding-left: 32px;
+    padding-bottom: 100px;
+    padding-right: 15px;
+}
+
+.dashboard-card {
+    border-radius: 8px;
+}
+
+.dashboard-card-header {
+    padding: 16px;
+}
+.table-onboard-candidates .avatar-holder{
+    flex: 0 0 36px;
+    margin-right: 5px;
+
+}
+.table-onboard-candidates .avatar {
+    height: 36px;
+    width: 36px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 5px;
+}

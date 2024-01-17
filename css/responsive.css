@@ -1,0 +1,39 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+
+    .main-layout header .custom-search {
+        margin-left: 50px;
+        flex: 0 0 262px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .login-layout {
+        flex-wrap: wrap;
+    }
+
+    .login-layout .left-display,
+    .login-layout .right-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .login-layout .left-display{
+        text-align: center;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .login-layout .left-display  .logo img{
+        max-width: 150px;
+    
+    }
+    .login-layout .left-display .display-img img{
+        max-width: 200px;
+    }
+    .login-layout .right-content{
+        min-height: auto;
+    }
+}

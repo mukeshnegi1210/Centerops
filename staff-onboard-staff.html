@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./images/favicon/manifest.json" />
+    <meta property="og:title" content="Centerops" />
+    <meta property="og:type" content="website" />
+    <!-- favicon -->
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <!-- Slick Carousel JavaScript -->
+
+    <title>Centerops</title>
+</head>
+<!-- Pre Loader -->
+<div id="aa-preloader-area">
+    <div class="pulse text-orange"></div>
+</div>
+<!-- SCROLL TOP BUTTON -->
+<a class="scrollToTop bg-orange d-none" href="#"><i class="fa fa-angle-double-up"></i></a>
+<!-- END SCROLL TOP BUTTON -->
+
+<body>
+
+    <div class="main-layout">
+        <!-- header starts -->
+        <header class="bg-white w-100 position-fixed">
+            <div class="container-fluid d-flex align-items-center ">
+                <a class="logo" href="#">
+                    <img src="./images/logo-blue.svg" alt="centerops">
+                </a>
+                <div class="custom-search">
+                    <span class="fa fa-search icon"> </span>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="header-actions d-flex ml-auto">
+                    <ul class="header-btns d-flex align-items-center mb-0">
+                        <li>
+                            <a href="#" class="action-btn"> <img src="./images/icons/Chat.svg" alt="Chat">
+                                <span class="indicator"></span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="action-btn">
+                                <img src="./images/icons/bell.svg" alt="bell">
+                                <span class="indicator"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header-user">
+                        <div class="dropdown">
+                            <button type="button" class="dropdown-toggle d-flex" data-toggle="dropdown">
+                                <img src="./images/avatars/avatar-1.svg" alt="userimg" class="user-img">
+                                <span class="d-block user-info">
+                                    <span class="h5 font-weight-medium d-block user-name text-dark">Rajiv</span>
+                                    <span class="user-designation text-muted font-weight-medium">Director</span>
+                                </span>
+                                <span class="fa fa-angle-down"></span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">My Profile</a>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header ends  -->
+
+           <!-- sidebar  -->
+           <div class="sidebar">
+            <div class="mb-5">
+                <h5 class="text-uppercase">Menu</h5>
+                <ul class="sidebar-menu">
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/dashboard.svg" alt="dashboard">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/dashboard-white.svg" alt="dashboard">
+                            </span>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex active">
+                            <span class="icon">
+                                <img src="./images/icons/Employees.svg" alt="Employee">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/Employees-white.svg" alt="Employees">
+                            </span>
+                            Staff Onboarding
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/calender.svg" alt="calender">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/calender-white.svg" alt="calender">
+                            </span>
+                            Calendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/cards.svg" alt="cards">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/cards-white.svg" alt="cards">
+                            </span>
+                            Financial Reconcialiation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/User.svg" alt="user">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/User-white.svg" alt="user">
+                            </span>
+                            Admin
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/Attendance.svg" alt="Attendance">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/Attendance-white.svg" alt="Attendance">
+                            </span>
+                            Job Master
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/Employee.svg" alt="Employee">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/Employee-white.svg" alt="cards">
+                            </span>
+                            Payroll
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="mt-auto">
+                <h5 class="text-uppercase">Account</h5>
+                <ul class="sidebar-menu">
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/User.svg" alt="dashboard">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/User-white.svg" alt="user">
+                            </span>
+                            Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/Chat.svg" alt="Chat">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/Chat-white.svg" alt="chat">
+                            </span>
+                            Chat
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/notification.svg" alt="notification">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/notification-white.svg" alt="notification">
+                            </span>
+                            Notification
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/logout.svg" alt="logout">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/logout-white.svg" alt="logout">
+                            </span>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- sidebar ends -->
+
+        <div class="main-content">
+            <div class="bg-white dashboard-card employee-list mb-4 pb-4">
+                <div class="dashboard-card-header d-flex align-center">
+                    <h4 class="text-dark">Staff onboarding Details</h4>
+                </div>
+                <div class="dashboard-card-body px-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="user-details-card d-flex font-weight-medium justify-content-between
+                            border-bottom py-3">
+                                <span class="text-muted">Name</span>
+                                <span class="text-dark">Zoe Lee</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="user-details-card d-flex font-weight-medium justify-content-between
+                            border-bottom py-3">
+                                <span class="text-muted">Salary</span>
+                                <span class="text-dark">$17/hr</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="user-details-card d-flex font-weight-medium justify-content-between
+                            border-bottom py-3">
+                                <span class="text-muted">Contact</span>
+                                <span class="text-dark">123-456-7890</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="user-details-card d-flex font-weight-medium justify-content-between
+                            border-bottom py-3">
+                                <span class="text-muted">Joining Date</span>
+                                <span class="text-dark">06/26/2023</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="user-details-card d-flex font-weight-medium justify-content-between
+                            border-bottom py-3">
+                                <span class="text-muted">Email</span>
+                                <span class="text-dark">zoe.lee0510@acm.com</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="user-details-card d-flex font-weight-medium justify-content-between
+                            border-bottom py-3">
+                                <span class="text-muted">Offer Date</span>
+                                <span class="text-dark">06/26/2023</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="user-details-card d-flex font-weight-medium justify-content-between
+                            border-bottom py-3">
+                                <span class="text-muted">Designation</span>
+                                <span class="text-dark">Teacher</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <label for="" class="text-dark">
+                                Signature (<span class="font-10">Print your name</span>)
+                            </label>
+                            <textarea rows="2" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end mt-5">
+                        <button class="btn btn-success  py-2">Accept Offer</button>
+                        <button class="btn btn-outline-danger py-2 ml-3">Decline Offer</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="staffaccordion" class="custom-accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link d-flex justify-content-between" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                View Offer
+
+                                <span class="icon fa fa-angle-down"></span>
+                            </button>
+                        </h4>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#staffaccordion">
+                        <div class="card-body text-muted pt-0">
+                            <h5 class="font-weight-semi text-dark mb-3">Sample offer text for a Teacher:</h5>
+
+                            <p>Dear Kendra</p>
+
+                            <p> We are pleased to offer you the Teacher position at Kiddie Academy of Collegeville,
+                                effective 2/01/24.</p>
+
+                            <p> We look forward to working with you and are confident you will meet with great success
+                                as a
+                                teacher at Kiddie Academy of Collegeville.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">View Job Responsibilities
+                                <span class="icon fa fa-angle-down"></span>
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#staffaccordion">
+                        <div class="card-body text-muted pt-0">
+                            <h5 class="font-weight-semi text-dark mb-3">Sample offer text for a Teacher:</h5>
+
+                            <p>Dear Kendra</p>
+
+                            <p> We are pleased to offer you the Teacher position at Kiddie Academy of Collegeville,
+                                effective 2/01/24.</p>
+
+                            <p> We look forward to working with you and are confident you will meet with great success
+                                as a
+                                teacher at Kiddie Academy of Collegeville.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">View Job Responsibilities
+                                <span class="icon fa fa-angle-down"></span>
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#staffaccordion">
+                        <div class="card-body text-muted pt-0">
+                            <h5 class="font-weight-semi text-dark mb-3">Sample offer text for a Teacher:</h5>
+
+                            <p>Dear Kendra</p>
+
+                            <p> We are pleased to offer you the Teacher position at Kiddie Academy of Collegeville,
+                                effective 2/01/24.</p>
+
+                            <p> We look forward to working with you and are confident you will meet with great success
+                                as a
+                                teacher at Kiddie Academy of Collegeville.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ============================ Scripts ========================== -->
+    <!-- jQuery library -->
+    <script src="./js/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="./js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/validate.min.js"></script>
+    <script src="./js/custom.js"></script>
+
+</body>
+
+</html>

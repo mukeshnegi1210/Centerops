@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./images/favicon/manifest.json" />
+    <meta property="og:title" content="Centerops" />
+    <meta property="og:type" content="website" />
+    <!-- favicon -->
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <!-- Slick Carousel JavaScript -->
+
+    <title>Centerops</title>
+</head>
+<!-- Pre Loader -->
+<div id="aa-preloader-area">
+    <div class="pulse text-orange"></div>
+</div>
+<!-- SCROLL TOP BUTTON -->
+<a class="scrollToTop bg-orange d-none" href="#"><i class="fa fa-angle-double-up"></i></a>
+<!-- END SCROLL TOP BUTTON -->
+
+<body>
+
+    <div class="main-layout">
+        <!-- header starts -->
+        <header class="bg-white w-100 position-fixed">
+            <div class="container-fluid d-flex align-items-center ">
+                <a class="logo" href="#">
+                    <img src="./images/logo-blue.svg" alt="centerops">
+                </a>
+                <div class="custom-search">
+                    <span class="fa fa-search icon"> </span>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="header-actions d-flex ml-auto">
+                    <ul class="header-btns d-flex align-items-center mb-0">
+                        <li>
+                            <a href="#" class="action-btn"> <img src="./images/icons/Chat.svg" alt="Chat">
+                                <span class="indicator"></span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="action-btn">
+                                <img src="./images/icons/bell.svg" alt="bell">
+                                <span class="indicator"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header-user">
+                        <div class="dropdown">
+                            <button type="button" class="dropdown-toggle d-flex" data-toggle="dropdown">
+                                <img src="./images/avatars/avatar-1.svg" alt="userimg" class="user-img">
+                                <span class="d-block user-info">
+                                    <span class="h5 font-weight-medium d-block user-name text-dark">Rajiv</span>
+                                    <span class="user-designation text-muted font-weight-medium">Director</span>
+                                </span>
+                                <span class="fa fa-angle-down"></span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <span class="fa fa-user mr-2"></span>
+                                    My Profile</a>
+                                <a class="dropdown-item" href="#">
+                                    <span class="fa fa-cog mr-2"></span>
+                                    Settings</a>
+                                <a class="dropdown-item" href="#">
+                                    <span class="fa fa-sign-out mr-2"></span>
+                                    Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header ends  -->
+
+        <!-- sidebar  -->
+        <div class="sidebar">
+            <div class="mb-5">
+                <h5 class="text-uppercase">Menu</h5>
+                <ul class="sidebar-menu">
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/dashboard.svg" alt="dashboard">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/dashboard-white.svg" alt="dashboard">
+                            </span>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex active">
+                            <span class="icon">
+                                <img src="./images/icons/Employees.svg" alt="Employee">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/Employees-white.svg" alt="Employees">
+                            </span>
+                            Staff Onboarding
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/calender.svg" alt="calender">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/calender-white.svg" alt="calender">
+                            </span>
+                            Calendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/cards.svg" alt="cards">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/cards-white.svg" alt="cards">
+                            </span>
+                            Financial Reconcialiation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/User.svg" alt="user">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/User-white.svg" alt="user">
+                            </span>
+                            Admin
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/Attendance.svg" alt="Attendance">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/Attendance-white.svg" alt="Attendance">
+                            </span>
+                            Job Master
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/Employee.svg" alt="Employee">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/Employee-white.svg" alt="cards">
+                            </span>
+                            Payroll
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="mt-auto">
+                <h5 class="text-uppercase">Account</h5>
+                <ul class="sidebar-menu">
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/User.svg" alt="dashboard">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/User-white.svg" alt="user">
+                            </span>
+                            Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/Chat.svg" alt="Chat">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/Chat-white.svg" alt="chat">
+                            </span>
+                            Chat
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/notification.svg" alt="notification">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/notification-white.svg" alt="notification">
+                            </span>
+                            Notification
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="icon">
+                                <img src="./images/icons/logout.svg" alt="logout">
+                            </span>
+                            <span class="icon hover">
+                                <img src="./images/icons/logout-white.svg" alt="logout">
+                            </span>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- sidebar ends -->
+
+        <div class="main-content">
+            <div class="bg-white dashboard-card employee-list">
+                <div class="dashboard-card-header d-flex align-center">
+                    <h4 class="text-dark">Employee List</h4>
+                    <div class="d-flex ml-auto">
+                        <div class="custom-search mr-2">
+                            <span class="fa fa-search icon"></span>
+                            <input type="text" placeholder="Type">
+                        </div>
+                        <button class="btn btn-primary font-12" data-toggle="modal" data-target="#OfferModal"> <span
+                                class="fa fa-plus"></span>
+                            Add New Employee </button>
+                    </div>
+
+                </div>
+                <div class="dashboard-card-body">
+                    <div class="table-responsive">
+                        <table class="table table-onboard-candidates align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary font-weight-bold font-12">Name
+                                    </th>
+                                    <th class="text-uppercase text-secondary ">
+                                        Salary</th>
+                                    <th class="text-uppercase text-secondary font-weight-bold font-12">
+                                        join date</th>
+                                    <th class="text-uppercase text-secondary font-weight-bold font-12">
+                                        Role</th>
+                                    <th class="text-uppercase text-secondary font-weight-bold font-12">
+                                        Certification Status</th>
+                                    <th class="text-uppercase text-secondary font-weight-bold font-12">
+                                        Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="d-flex px-2 py-1">
+                                            <div class="avatar-holder">
+                                                <img src="./images/avatars/avatar-1.svg" class="avatar avatar-sm me-3"
+                                                    alt="avatar image">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h5 class="mb-0 text-sm text-dark-2 font-weight-medium">John Michael
+                                                </h5>
+                                                <p class="font-12 text-secondary font-weight-medium">sussie-w@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">$5,000</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">25 JAN 2022
+                                        </p>
+
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 text-sm font-weight-bold text-dark-2">Teacher</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-light font-8 mb-0 text-right font-weight-bold">4/6</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                                aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle ">
+                                        <a type="button" href="employee-details.html"
+                                            class="btn btn-outline-info btn-sm py-1 font-12">View</a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="d-flex px-2 py-1">
+                                            <div class="avatar-holder">
+                                                <img src="./images/avatars/avatar-1.svg" class="avatar avatar-sm me-3"
+                                                    alt="avatar image">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h5 class="mb-0 text-sm text-dark-2 font-weight-medium">John Michael
+                                                </h5>
+                                                <p class="font-12 text-secondary font-weight-medium">sussie-w@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">$5,000</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">25 JAN 2022
+                                        </p>
+
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 text-sm font-weight-bold text-dark-2">Teacher</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-light font-8 mb-0 text-right font-weight-bold">4/6</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                                aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle ">
+                                        <a type="button" href="employee-details.html"
+                                            class="btn btn-outline-info btn-sm py-1 font-12">View</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="d-flex px-2 py-1">
+                                            <div class="avatar-holder">
+                                                <img src="./images/avatars/avatar-1.svg" class="avatar avatar-sm me-3"
+                                                    alt="avatar image">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h5 class="mb-0 text-sm text-dark-2 font-weight-medium">John Michael
+                                                </h5>
+                                                <p class="font-12 text-secondary font-weight-medium">sussie-w@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">$5,000</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">25 JAN 2022
+                                        </p>
+
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 text-sm font-weight-bold text-dark-2">Teacher</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-light font-8 mb-0 text-right font-weight-bold">4/6</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                                aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle ">
+                                        <a type="button" href="employee-details.html"
+                                            class="btn btn-outline-info btn-sm py-1 font-12">View</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="d-flex px-2 py-1">
+                                            <div class="avatar-holder">
+                                                <img src="./images/avatars/avatar-1.svg" class="avatar avatar-sm me-3"
+                                                    alt="avatar image">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h5 class="mb-0 text-sm text-dark-2 font-weight-medium">John Michael
+                                                </h5>
+                                                <p class="font-12 text-secondary font-weight-medium">sussie-w@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">$5,000</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">25 JAN 2022
+                                        </p>
+
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 text-sm font-weight-bold text-dark-2">Teacher</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-light font-8 mb-0 text-right font-weight-bold">4/6</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                                aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle ">
+                                        <a type="button" href="employee-details.html"
+                                            class="btn btn-outline-info btn-sm py-1 font-12">View</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="d-flex px-2 py-1">
+                                            <div class="avatar-holder">
+                                                <img src="./images/avatars/avatar-1.svg" class="avatar avatar-sm me-3"
+                                                    alt="avatar image">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h5 class="mb-0 text-sm text-dark-2 font-weight-medium">John Michael
+                                                </h5>
+                                                <p class="font-12 text-secondary font-weight-medium">sussie-w@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">$5,000</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">25 JAN 2022
+                                        </p>
+
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 text-sm font-weight-bold text-dark-2">Teacher</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-light font-8 mb-0 text-right font-weight-bold">4/6</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                                aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle ">
+                                        <a type="button" href="employee-details.html"
+                                            class="btn btn-outline-info btn-sm py-1 font-12">View</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="d-flex px-2 py-1">
+                                            <div class="avatar-holder">
+                                                <img src="./images/avatars/avatar-1.svg" class="avatar avatar-sm me-3"
+                                                    alt="avatar image">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h5 class="mb-0 text-sm text-dark-2 font-weight-medium">John Michael
+                                                </h5>
+                                                <p class="font-12 text-secondary font-weight-medium">sussie-w@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">$5,000</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">25 JAN 2022
+                                        </p>
+
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 text-sm font-weight-bold text-dark-2">Teacher</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-light font-8 mb-0 text-right font-weight-bold">4/6</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                                aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle ">
+                                        <a type="button" href="employee-details.html"
+                                            class="btn btn-outline-info btn-sm py-1 font-12">View</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="d-flex px-2 py-1">
+                                            <div class="avatar-holder">
+                                                <img src="./images/avatars/avatar-1.svg" class="avatar avatar-sm me-3"
+                                                    alt="avatar image">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h5 class="mb-0 text-sm text-dark-2 font-weight-medium">John Michael
+                                                </h5>
+                                                <p class="font-12 text-secondary font-weight-medium">sussie-w@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">$5,000</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 font-weight-bold text-dark-2">25 JAN 2022
+                                        </p>
+
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-secondary mb-0 text-sm font-weight-bold text-dark-2">Teacher</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="text-light font-8 mb-0 text-right font-weight-bold">4/6</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                                aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle ">
+                                        <a type="button" href="employee-details.html"
+                                            class="btn btn-outline-info btn-sm py-1 font-12">View</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-pagination mt-4 d-flex justify-content-between">
+                <p class="mb-0 text-dark-2 font-weight-medium">Showing 1 to 10 of 40 entries</p>
+                <ul class="pagination custom-pagination">
+                    <li class="page-item"><a class="page-link" href="#">
+                            <span class="fa fa-angle-left"></span>
+                        </a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item"><a class="page-link" href="#">9</a></li>
+                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+                    <li class="page-item"><a class="page-link" href="#">
+                            <span class="fa fa-angle-right"></span>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Offer Modal  -->
+    <div class="modal fade" id="OfferModal" tabindex="-1" role="dialog" aria-labelledby="OfferModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0 mb-4">
+                    <h4 class="modal-title text-dark" id="OfferModalLabel">Staff Onboarding</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="./images/icons/close-icon.svg" alt="close-icon">
+                    </button>
+                </div>
+                <div class="modal-body pb-0">
+                    <div class="row mx-n2">
+                        <div class="col-md-4 px-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Middle Initial">
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="col-md-12 px-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email Id">
+                            </div>
+                        </div>
+                        <div class="col-md-12 px-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-2">
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option value="">Role</option>
+                                    <option value="">Role 1</option>
+                                    <option value="">Role 1</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Salary">
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="offerdate" placeholder="Offer Date">
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="joiningdate" placeholder="Joining Date">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-primary w-100 font-16" data-dismiss="modal" data-toggle="modal"
+                        data-target="#OfferSentModal">Generate Offer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Offer Modal  -->
+    <div class="modal fade" id="OfferSentModal" tabindex="-1" role="dialog" aria-labelledby="OfferSentModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body py-5">
+                    <h2 class="modal-title text-dark text-center mb-3" id="OfferSentModalLabel">Offer Sent</h2>
+                    <img src="./images/sent-successful.svg" alt="sent-successful">
+                    <p>Offer has been sent to <span class="font-weight-medium">mitchellensink@gmail.com</span></p>
+                    <button type="button" class="btn btn-primary rounded-pill px-5 mt-3 font-16"
+                        data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ Scripts ========================== -->
+    <!-- jQuery library -->
+    <script src="./js/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="./js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+        $(function () {
+            $("#offerdate, #joiningdate").datepicker();
+        });
+    </script>
+
+</body>
+
+</html>
